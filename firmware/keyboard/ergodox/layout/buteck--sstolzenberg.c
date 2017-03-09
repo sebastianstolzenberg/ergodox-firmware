@@ -292,7 +292,7 @@ static layout_t layout PROGMEM = {
 // left hand ...... ......... ......... ......... ......... ......... .........
      l4_on,      1,        2,        3,        4,        5,      dead_caret,
      sz,         b,        u,        period,   comma,    ue,     tab,
-     tab,        h,        i,        a,        e,        o,
+     tab,        h,        i,        e,        a,        o,
      nop,        k,        y,        oe,       ae,       q,      enter,
      app,        guiL,     nop,      nop,      l3_on,
                                                                           l2_onoff, l4_onoff,
@@ -301,7 +301,7 @@ static layout_t layout PROGMEM = {
 // right hand ..... ......... ......... ......... ......... ......... .........
                dead_aigu,     6,        7,        8,        9,        0,      dash,
                del,           p,        c,        l,        m,        f,      x,
-                              d,        t,        r,        n,        s,      nop,
+                              d,        t,        r,        n,        s,      sz,
                bs,            j,        g,        w,        v,        z,      nop,
                                         l3_on,    l3_on,    esc,      guiR,   nop,
    l4_onoff, l2_onoff,
@@ -315,7 +315,7 @@ static layout_t layout PROGMEM = {
 // left hand ...... ......... ......... ......... ......... ......... .........
     transp,     1,        2,        3,        4,        5,      dead_caret,
     at,         B,        U,        quote,    dash,     UE,     shiftTab,
-    tab,        H,        I,        A,        E,        O,
+    tab,        H,        I,        E,        A,        O,
     nop,        K,        Y,        OE,       AE,       Q,      shiftEnter,
     app,        guiL,     nop,      nop,      transp,
                                                                          transp,   transp,
